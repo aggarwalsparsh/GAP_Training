@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Daily Task
-        run: echo "Running scheduled task at midnight UTC"
+        run: echo "Running scheduled task everyday"
