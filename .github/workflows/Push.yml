@@ -1,7 +1,7 @@
-name: Push
+name: new Fork
 
 
-on: push
+on: fork
 
 jobs:
    build:
