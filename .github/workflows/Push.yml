@@ -13,10 +13,8 @@ jobs:
    test:
       runs-on: windows-latest
       steps:
-        -name: Print test
-         run: echo 'Print test'
-        -name: Print test - firefox
-         run: echo 'Print test -firefox'
+        -name: Print test - chrome
+        run: echo 'Print test'
    deploy:
       runs-on: ubuntu-latest
       steps:
