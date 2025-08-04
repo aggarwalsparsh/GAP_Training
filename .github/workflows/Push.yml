@@ -7,16 +7,16 @@ jobs:
    build:
       runs-on: ubuntu-latest
       steps:
-        -name: Print Build
-        run: echo 'Print Build'
+        - name: Print Build
+          run: echo 'Print Build'
         
    test:
       runs-on: windows-latest
       steps:
-        -name: Print test - chrome
-        run: echo 'Print test'
+        - name: Print test - chrome
+          run: echo 'Print test'
    deploy:
       runs-on: ubuntu-latest
       steps:
-        -name: Print deploy
-        run: echo 'Print deploy'
+        - name: Print deploy
+          run: echo 'Print deploy'
