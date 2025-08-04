@@ -1,7 +1,7 @@
-name: new Fork
+name:  Push Workflow
 
 
-on: fork
+on: push
 
 jobs:
    build:
