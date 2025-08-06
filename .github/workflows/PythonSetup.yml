@@ -11,6 +11,6 @@ jobs:
         uses: actions/setup-python@v5.6.0
         with: 
           python-version: 3.13
-      - name: Print pyhton version
-        run: phyton --version
+      - name: Print python version
+        run: python --version
           
