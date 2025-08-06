@@ -12,5 +12,5 @@ jobs:
         with: 
           python-version: 3.13
       - name: Print pyhton version
-        run: sys-version
+        run: phython-v
           
